@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    /* background: #00f; */
+    transition: 1.2s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    padding: 30px 0;
+    background-color: #e6e6e6;
+    width: 500px;
+    border-radius: 20px;
+    outline: 4px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card h2 {
+    font-size: 1.8rem;
+}
+
+.card button {
+    display: block;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
